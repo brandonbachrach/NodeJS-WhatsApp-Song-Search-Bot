@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "babel-node server/server.js",
+    "build": "webpack --config prod.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brandon Bachrach",
@@ -20,7 +21,13 @@
     "@babel/cli": "^7.6.2",
     "@babel/core": "^7.6.2",
     "@babel/node": "^7.6.2",
-    "@babel/preset-env": "^7.6.2"
+    "@babel/preset-env": "^7.6.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
   },
   "engines": {
     "node": "8.x"

@@ -1,13 +1,13 @@
 {
-  "name": "whatsapp-bot",
+  "name": "whatsapp-song-search-bot",
   "version": "1.0.0",
-  "description": "A whatspp bot that uses twilio ",
+  "description": "Search for a song in WhatsApp returning a link to the youtube video, lyrics, and spotify link.",
   "main": "index.js",
   "scripts": {
     "start": "babel-node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ekpang Michael",
+  "author": "Brandon Bachrach",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
@@ -17,10 +17,10 @@
     "twilio": "^3.35.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.6.0",
-    "@babel/core": "7.6.0",
-    "@babel/node": "^7.6.1",
-    "@babel/preset-env": "^7.6.0"
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2"
   },
   "engines": {
     "node": "8.x"
